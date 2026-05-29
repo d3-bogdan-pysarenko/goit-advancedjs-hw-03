@@ -5,6 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomeWork 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/raphaelfabeni/css-loader@master/dist/css-loader.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -15,11 +25,33 @@
           Advanced JavaScript and TypeScript: Tools and Best Practices 2.0
         </h1>
 
+        <section class="search">
+          <form class="form">
+              <label>
+                  <input
+                      type="text"
+                      name="search-text"
+                      placeholder="Search images..."
+                      required
+                  />
+              </label>
+              <button type="submit">Search</button>
+          </form>
+        </section>
+
+        <section class="container">
+          <span class="loader loader-default"></span>
+          <ul class="gallery"></ul>
+        </section>
+
+
         <p class="home-footer">
           Homework_03 for course Advanced JavaScript and TypeScript: Tools and
           Best Practices 2.0
         </p>
       </div>
     </main>
+
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
