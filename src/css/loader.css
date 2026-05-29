@@ -1,0 +1,9 @@
+.loader.is-active {
+    background-color: rgba(11, 13, 18, 0.85);
+}
+
+.loader-default:after {
+    /* border-color: var(--accent); */
+    border-left-color: transparent;
+    /* filter: drop-shadow(0 0 12px var(--accent-glow)); */
+}
