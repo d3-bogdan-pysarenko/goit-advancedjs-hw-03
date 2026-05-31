@@ -40,14 +40,14 @@
   margin-top: 16px;
   font-size: 30px;
   font-weight: 700;
-  color: #2e2f42;
+  color: var(--color-steel);
 }
 
 .task-card-desc {
   margin-top: 12px;
   font-size: 15px;
   line-height: 1.5;
-  color: #5c5c75;
+  color: var(--color-lightGrey);
   flex-grow: 1;
 }
 
@@ -55,7 +55,7 @@
   align-self: flex-end;
   margin-top: 20px;
   font-size: 24px;
-  color: #4e75ff;
+  color: var(--color-blue-nav);
   transition: transform 250ms ease;
 }
 
@@ -65,8 +65,7 @@
 
 .home-footer {
   text-align: center;
-  margin-top: 64px;
-  padding-bottom: 32px;
   font-size: 14px;
-  color: #8a8aa3;
+  color: var(--color-lightGrey);
+  padding: 30px;
 }
