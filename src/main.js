@@ -15,7 +15,10 @@ form.addEventListener('submit', event => {
     event.preventDefault();
 
     const query = event.target.elements['search-text'].value.trim();
-    if (!query) return;
+    if (!query) {
+        window.alert('Please, provide non-empty key to search')
+        return;
+    }
 
     clearGallery();
     showLoader();
